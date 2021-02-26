@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title>Modal</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="assets/css/bootstrap-datepicker.css"/>	
+	<script type="text/javascript" src="js/sweetalert2.js"</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <link href="jumbotron.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	
+	<style type="text/css">
+    #img{border-radius: 20px;}
+	#img01{
+	background-color: #FF0000;
+	border-radius: 20px;
+	}
+	#img02{
+	background-color: #00FF00;
+	border-radius: 20px;
+	}
+	#img03{
+	background-color: #0000FF;
+	border-radius: 20px;
+	}
+    </style>
+	
+  </head>
+  <body>
+    
+    <div class="jumbotron">
+      
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4" id="img01">
+          <h2>MODAL 1</h2>
+		  <img id="img" src="codigo.jpg" width="350px"/>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><button type="button" data-toggle="modal" data-target="#myModal_1" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Ver Detalhes_1</button></p>
+        </div>
+        <div class="col-md-4" id="img02">
+          <h2>MODAL 2</h2>
+		  <img id="img" src="codigo.jpg" width="350px"/>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><button type="button" data-toggle="modal" data-target="#myModal_2" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Ver Detalhes_2</button></p>
+        </div>
+        <div class="col-md-4" id="img03">
+          <h2>MODAL 3</h2>
+		  <img id="img-3" src="codigos.jpg" width="350px"/>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><button type="button" data-toggle="modal" data-target="#myModal_3" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Ver Detalhes_3</button></p>
+		  
+		</div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2017</p>
+      </footer>
+    </div> <!-- /container -->
+	
+	<!-- Inicio Modal_1 -->
+	<div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">				
+					<h3 class="modal-title text-center" id="myModalLabel"><strong>Modal_1</strong></h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<p>Conteúdo do Modal_1........</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fim Modal_1 -->
+	
+	<!-- Inicio Modal_2 -->
+	<div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">				
+					<h3 class="modal-title text-center" id="myModalLabel"><strong>Modal_2</strong></h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<p>Conteúdo do Modal_2......</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fim Modal_2 -->
+	
+	<!-- Inicio Modal_3 -->
+	<div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">				
+					<h3 class="modal-title text-center" id="myModalLabel"><strong>Modal_3</strong></h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<p>Conteúdo do Modal_3......</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Fim Modal_3 -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
